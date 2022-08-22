@@ -30,6 +30,7 @@ public class Assigment2Application {
 	           else if (userInput == randomNumber){
 	              
 	              System.out.println("You win!");
+	              break;
 
 	           }
 	           else if (userInput < randomNumber){
@@ -43,6 +44,7 @@ public class Assigment2Application {
 	           }
 		 if (guesses==turns) {
 			System.out.println("You lose! The correct number was: " + randomNumber); 
+			
 		 }
 		 }
 		 scanner.close();
